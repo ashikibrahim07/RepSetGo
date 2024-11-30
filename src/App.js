@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import Calculator from "./Calculator";
-import Footer from "./Footer";
 
 function formatTime(date) {
   return new Intl.DateTimeFormat("en", {
@@ -52,14 +51,11 @@ function App() {
   }, []);
 
   return (
-    <>
-      <main>
-        <h1>RepSetGo</h1>
-        <time>For your workout on {time}</time>
-        <Calculator workouts={workouts} />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <h1>RepSetGo</h1>
+      <time>For your workout on {time}</time>
+      <Calculator workouts={workouts} />
+    </main>
   );
 }
 
