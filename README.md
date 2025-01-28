@@ -39,25 +39,6 @@ The app is fully responsive and optimized for:
 - Support saving workout plans for future reference.
 - Provide visual progress indicators.
 
-## Contributing
-
-Contributions are welcome! If you have ideas or improvements, feel free to:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature name"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
 ## Live Demo
 
 Check out the live demo: [Rep Set Go Live Demo](https://rep-set-go-beta.vercel.app/)
@@ -89,6 +70,25 @@ To run the project locally:
 /src: Contains source files, including components and styles.
 
 /public: Static assets used in the app.
+
+## Contributing
+
+Contributions are welcome! If you have ideas or improvements, feel free to:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature name"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
 ## Contact
 
