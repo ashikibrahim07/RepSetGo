@@ -53,6 +53,14 @@ function App() {
   return (
     <main>
       <h1>RepSetGo</h1>
+      <a
+        href="https://ashik-ibrahim.vercel.app/"
+        class="author-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span>by Ashik Ibrahim</span>
+      </a>
       <time>For your workout on {time}</time>
       <Calculator workouts={workouts} />
     </main>

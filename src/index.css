@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-
   color: #444;
   display: flex;
   align-items: center;
@@ -40,6 +39,28 @@ h1 {
   background-image: linear-gradient(to right bottom, #80dfe1, #4e7afa);
   color: transparent;
   transform: skew(-20deg);
+}
+
+.author-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.author-link:hover {
+  color: #4a9fee;
+}
+
+.author-link span {
+  display: inline-block;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
 }
 
 time {
@@ -148,6 +169,29 @@ button {
   p {
     font-size: 4rem;
   }
+
+  form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  label {
+    flex-shrink: 0;
+    width: 20rem;
+    font-size: 1.6rem;
+  }
+
+  input[type="range"] {
+    flex: 1;
+    max-width: 100%;
+    margin-right: 2rem;
+  }
+
+  span {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -182,6 +226,29 @@ button {
 
   p {
     font-size: 3rem;
+  }
+
+  form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  label {
+    flex-shrink: 0;
+    width: 18rem;
+    font-size: 1.4rem;
+  }
+
+  input[type="range"] {
+    flex: 1;
+    max-width: 100%;
+    margin-right: 1.5rem;
+  }
+
+  span {
+    font-size: 1.4rem;
   }
 }
 
@@ -222,5 +289,29 @@ button {
 
   p {
     font-size: 2rem;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  label {
+    flex-shrink: 0;
+    width: auto;
+    font-size: 1.2rem;
+  }
+
+  input[type="range"] {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  span {
+    font-size: 1.2rem;
   }
 }
